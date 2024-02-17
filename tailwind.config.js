@@ -2,7 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        logo: ["Pacifico", "cursive"],
+        headline: ["Signika Negative", "sans-serif"],
+        primary: ["Nunito", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

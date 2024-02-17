@@ -28,13 +28,13 @@ const Navbar = () => {
   return (
     <header className="bg-black text-white ">
       <nav className="px-4 py-4 max-w-7xl mx-auto flex md:gap-6 items-center justify-between ">
-        <Link to="/">
+        <Link to="/" className="font-logo">
           <span className="text-xl font-bold text-white ">Faisal</span>
           <span className="text-xl font-bold text-orange-500 ">Blog</span>
         </Link>
 
         {/* navitems */}
-        <ul className="md:flex md:gap-6 lg:gap-12 md:items-center text-md font-semibold hidden  ">
+        <ul className="md:flex md:gap-6 lg:gap-12 md:items-center text-md font-semibold hidden font-primary ">
           {navItems.map(({ path, link }) => (
             <li className="text-white" key={path}>
               <NavLink
