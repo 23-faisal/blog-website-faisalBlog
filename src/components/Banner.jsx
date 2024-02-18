@@ -17,7 +17,7 @@ const Banner = () => {
 
           <Link
             className=" flex items-center justify-center gap-2 font-bold font-primary rounded-sm mt-6 bg-orange-500 px-6 py-4 hover:text-orange-500 hover:bg-white transition ease-in-out duration-500  "
-            to="/contact"
+            to="/services"
           >
             <span>Learn More</span>
             <FaArrowRight />{" "}

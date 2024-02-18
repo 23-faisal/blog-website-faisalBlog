@@ -1,8 +1,11 @@
-
 const Services = () => {
   return (
-    <div>
-      <h1>Services</h1>
+    <div className="">
+      <div className="py-32 bg-black text-center px-4">
+        <h1 className="text-3xl mb-12 font-headline text-white  md:text-5xl lg:text-7xl font-bold">
+          Services
+        </h1>
+      </div>
     </div>
   );
 };
