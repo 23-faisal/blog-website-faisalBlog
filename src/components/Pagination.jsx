@@ -28,7 +28,7 @@ const Pagination = ({ blogs, currentPage, pageSize, handlePageChange }) => {
   };
 
   return (
-    <ul className="my-8 flex items-center justify-center  gap-6 ">
+    <ul className="my-8 flex items-center justify-center  gap-6 font-semibold">
       <li>
         <button
           className={currentPage === 1 && "text-gray-500"}
